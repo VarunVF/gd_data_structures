@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class name="Set" inherits="RefCounted" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/godotengine/godot/master/doc/class.xsd">
+	<brief_description>
+		Set class.
+	</brief_description>
+	<description>
+		Represents a set data structure. Similar to a Dictionary, but stores only keys instead of key-value pairs.
+	</description>
+	<tutorials>
+	</tutorials>
+	<methods>
+		<method name="add">
+			<return type="void" />
+			<argument type=Variant name="element" />
+			<description>
+				Add an element to the set.
+			</description>
+		</method>
+		<method name="has" qualifiers="const">
+			<return type="bool" />
+			<argument type=Variant name="element" />
+			<description>
+				Check for existence of an element within the set.
+			</description>
+		</method>
+		<method name="clear">
+			<return type="void" />
+			<description>
+				Remove all elements from the set.
+			</description>
+		</method>
+		<method name="erase">
+			<argument type=Variant name="element" />
+			<return type="void" />
+			<description>
+				Remove a specific element from the set.
+			</description>
+		</method>
+	</methods>
+</class>
