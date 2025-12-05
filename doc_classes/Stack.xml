@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class name="Stack" inherits="RefCounted" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/godotengine/godot/master/doc/class.xsd">
+	<brief_description>
+		Stack class.
+	</brief_description>
+	<description>
+		Represents a stack data structure.
+	</description>
+	<tutorials>
+	</tutorials>
+	<methods>
+		<method name="push">
+			<return type="void" />
+			<description>
+				Push onto the top of the stack.
+			</description>
+		</method>
+		<method name="pop">
+			<return type="Variant" />
+			<description>
+				Pop off the top of the stack.
+			</description>
+		</method>
+		<method name="peek" qualifiers="const">
+			<return type="Variant" />
+			<description>
+				Peek the top of the stack.
+			</description>
+		</method>
+	</methods>
+</class>
