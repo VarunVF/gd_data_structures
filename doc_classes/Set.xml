@@ -36,5 +36,11 @@
 				Remove a specific element from the set.
 			</description>
 		</method>
+		<method name="size"  qualifiers="const">
+			<return type="int" />
+			<description>
+				Get the size of the set.
+			</description>
+		</method>
 	</methods>
 </class>

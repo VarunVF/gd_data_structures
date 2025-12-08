@@ -1,6 +1,12 @@
-[gd_scene load_steps=2 format=3 uid="uid://u3kttisnd0ok"]
+[gd_scene load_steps=3 format=3 uid="uid://u3kttisnd0ok"]
 
-[ext_resource type="Script" uid="uid://do0o2y4usi51v" path="res://main.gd" id="2_0xm2m"]
+[ext_resource type="Script" uid="uid://do0o2y4usi51v" path="res://test_stack.gd" id="2_0xm2m"]
+[ext_resource type="Script" uid="uid://cj5fl8v7oumjl" path="res://test_set.gd" id="2_h2yge"]
 
 [node name="Main" type="Node"]
+
+[node name="TestStack" type="Node" parent="."]
 script = ExtResource("2_0xm2m")
+
+[node name="TestSet" type="Node" parent="."]
+script = ExtResource("2_h2yge")
