@@ -7,6 +7,7 @@
 
 #include "set.h"
 #include "stack.h"
+#include "queue.h"
 
 using namespace godot;
 
@@ -17,6 +18,7 @@ void initialize_gdextension_types(ModuleInitializationLevel p_level)
 	}
 	GDREGISTER_CLASS(Set);
 	GDREGISTER_CLASS(Stack);
+	GDREGISTER_CLASS(Queue);
 }
 
 void uninitialize_gdextension_types(ModuleInitializationLevel p_level) {

@@ -11,14 +11,14 @@
 	<methods>
 		<method name="add">
 			<return type="void" />
-			<argument type=Variant name="element" />
+			<argument type="Variant" name="element" />
 			<description>
 				Add an element to the set.
 			</description>
 		</method>
 		<method name="has" qualifiers="const">
 			<return type="bool" />
-			<argument type=Variant name="element" />
+			<argument type="Variant" name="element" />
 			<description>
 				Check for existence of an element within the set.
 			</description>
@@ -30,7 +30,7 @@
 			</description>
 		</method>
 		<method name="erase">
-			<argument type=Variant name="element" />
+			<argument type="Variant" name="element" />
 			<return type="void" />
 			<description>
 				Remove a specific element from the set.

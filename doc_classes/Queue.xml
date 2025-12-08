@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class name="Queue" inherits="RefCounted" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/godotengine/godot/master/doc/class.xsd">
+	<brief_description>
+		Queue class.
+	</brief_description>
+	<description>
+		Represents a queue data structure.
+	</description>
+	<tutorials>
+	</tutorials>
+	<methods>
+		<method name="enqueue">
+			<return type="void" />
+			<argument type="Variant" name="value" />
+			<description>
+				Add to the back of the queue.
+			</description>
+		</method>
+		<method name="dequeue">
+			<return type="Variant" />
+			<description>
+				Remove from the front of the queue.
+			</description>
+		</method>
+		<method name="peek" qualifiers="const">
+			<return type="Variant" />
+			<description>
+				Peek the front of the queue.
+			</description>
+		</method>
+
+		<method name="clear">
+			<return type="void" />
+			<description>
+				Erase all elements in the queue.
+			</description>
+		</method>
+		<method name="size" qualifiers="const">
+			<return type="int" />
+			<description>
+				Get the size of the queue.
+			</description>
+		</method>
+		<method name="is_empty">
+			<return type="bool" />
+			<description>
+				Check whether the queue is empty.
+			</description>
+		</method>
+
+		<method name="to_array" qualifiers="const">
+			<return type="Array" />
+			<description>
+				Convert the queue into an Array.
+			</description>
+		</method>
+		<method name="from_array">
+			<return type="void" />
+			<argument type="Array" name="array" />
+			<description>
+				Initialise this queue from an array.
+			</description>
+		</method>
+	</methods>
+</class>
